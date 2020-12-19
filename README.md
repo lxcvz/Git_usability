@@ -1,8 +1,8 @@
 # Conceitos báscios 
-- Git workflow
--- Working directory// Aqui mostra os arquivos da pasta. Com git add seus arquivos ou folders vão para STAGE AREA.
-  -- Stage area// local onde o arquivo está preparado para ser commitado. 
-  -- Local repository // local para onde os arquivos commitados vão.
+* Git workflow
+  * Working directory// Aqui mostra os arquivos da pasta. Com git add seus arquivos ou folders vão para STAGE AREA.
+  * Stage area// local onde o arquivo está preparado para ser commitado. 
+  * Local repository // local para onde os arquivos commitados vão.
 
 # git
 - git init // inicia o repositório git no local.
@@ -55,11 +55,12 @@
 ## GIT RM 
 -git rm <arquivo> // deleta o arquivo jogando para stage area, em seguida é só usar o git add para excluir.
 -git rm -r --cached . // tira tudo que tinha no cache
+
 ## GIT VM
 - git vm exemplo exemplo_V2 // renomeia o arquivo exemplo para exemplo_V2.
 
-- Quando arquivo já tiver na stage area, é possível mudá-lo de pasta. 
-  -- git mv arquivo_exemplo src/arquivo_exemplo // move arquivo_exemplo para pasta src. 
+* Quando arquivo já tiver na stage area, é possível mudá-lo de pasta. 
+  * git mv arquivo_exemplo src/arquivo_exemplo // move arquivo_exemplo para pasta src. 
 
 # GIT CHECKOUT
 
@@ -78,8 +79,8 @@
 
 ## GIT IGNORE 
 
-- serve para ignorar determinado arquivo que não será utilizado. 
-  -- vim .gitignore // coloque aqui o folder ou file que deseja ignorar.para sair aperte ESC e digite: :wq
+* serve para ignorar determinado arquivo que não será utilizado. 
+  ** vim .gitignore // coloque aqui o folder ou file que deseja ignorar.para sair aperte ESC e digite: :wq
 
 
 
