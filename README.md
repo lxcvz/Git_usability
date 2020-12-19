@@ -1,12 +1,12 @@
 # Conceitos báscios 
 - Git workflow
 -- Working directory// Aqui mostra os arquivos da pasta. Com git add seus arquivos ou folders vão para STAGE AREA.
--- Stage area// local onde o arquivo está preparado para ser commitado. 
--- Local repository // local para onde os arquivos commitados vão.
+  -- Stage area// local onde o arquivo está preparado para ser commitado. 
+  -- Local repository // local para onde os arquivos commitados vão.
 
 # git
 - git init // inicia o repositório git no local.
-- //para verificar o folder que você está use no git bash o comando: PWD. 
+- para verificar o folder que você está use no git bash o comando: PWD. 
 - cd Documents/Folder_exemplo //permite você trabalhar no folder indicado.  
 
 - mkdir nomeDiretorio // cria um diretório
@@ -39,8 +39,7 @@
 - git log --grep="bugfix" // traz tudo que contem o commit com "bugfix"  //exemplo2.
 
 ## FILES 
-- cat 
-
+ 
 -git restore // restaura a ultima modificação feita no arquivo.
 
 -git reset HEAD <nome_arquivo> // semelhante ao --staged.
@@ -60,7 +59,7 @@
 - git vm exemplo exemplo_V2 // renomeia o arquivo exemplo para exemplo_V2.
 
 - Quando arquivo já tiver na stage area, é possível mudá-lo de pasta. 
--- git mv arquivo_exemplo src/arquivo_exemplo // move arquivo_exemplo para pasta src. 
+  -- git mv arquivo_exemplo src/arquivo_exemplo // move arquivo_exemplo para pasta src. 
 
 # GIT CHECKOUT
 
@@ -80,7 +79,7 @@
 ## GIT IGNORE 
 
 - serve para ignorar determinado arquivo que não será utilizado. 
--- vim .gitignore // coloque aqui o folder ou file que deseja ignorar.para sair aperte ESC e digite: :wq
+  -- vim .gitignore // coloque aqui o folder ou file que deseja ignorar.para sair aperte ESC e digite: :wq
 
 
 
